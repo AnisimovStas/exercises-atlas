@@ -11,5 +11,5 @@ module.exports = {
   },
 };
 module.exports = {
-  publicPath: "/exercises-atlas/",
+  publicPath: "",
 };
