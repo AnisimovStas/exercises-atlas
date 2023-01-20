@@ -1,0 +1,18 @@
+.logoAndText {
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.logoAndText_logo {
+  height: 80px;
+  width: 150px;
+}
+.logoAndText_text {
+  margin-bottom: 5px;
+  font-family: $font-title;
+  text-align: center;
+  font-size: large;
+  font: bold;
+}
