@@ -7,7 +7,8 @@
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint",
     "gh-pages": "vue-cli-service gh-pages",
-    "deploy": "node scripts/gh-pages-deploy.js"
+    "deploy": "node scripts/gh-pages-deploy.js",
+    "update": "node scripts/gh-pages-update.js"
   },
   "dependencies": {
     "core-js": "^3.8.3",
