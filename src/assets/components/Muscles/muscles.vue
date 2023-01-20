@@ -342,7 +342,7 @@
 <script>
 import ExercisesData from "./data/ExercisesData.json";
 export default {
-  name: "App",
+  name: "MusclesApp",
   data() {
     return {
       currentMuscle: "",

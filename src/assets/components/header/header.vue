@@ -48,8 +48,8 @@
 
 <script>
 export default {
-  name: "App",
-  data() {
+  name: "headerApp",
+    data() {
     return {
       isActive: true,
     };
