@@ -1,0 +1,13 @@
+.svg {
+  display: none;
+  background-color: rgb(255, 255, 255);
+  height: 75vh;
+  fill: rgb(0, 0, 0);
+}
+.svg :hover {
+  fill: red;
+}
+
+.SideSelection {
+  background-color: black;
+}/*# sourceMappingURL=index.css.map */

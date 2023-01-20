@@ -1,0 +1,16 @@
+.header__contentSlot__empty {
+  @include _768 {
+    height: 10vh;
+  }
+}
+.header__contentSlot__left {
+  @include _768 {
+    width: auto;
+  }
+}
+.header__contentSlot {
+  @include _768 {
+    width: auto;
+    justify-content: left;
+  }
+}

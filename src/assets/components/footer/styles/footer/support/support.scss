@@ -1,0 +1,42 @@
+.support {
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+}
+.support__text {
+  font-family: $font-common;
+  margin: 3px;
+  text-decoration: underline;
+  font: bold;
+  font-size: larger;
+  display: flex;
+  justify-content: right;
+}
+.list {
+  padding: 0;
+  list-style-type: none;
+}
+.support__list {
+  padding: 0;
+  margin: 0 ;
+  display: flex;
+  justify-content: right;
+  :hover {
+    background-color: $main-hover;
+  }
+}
+
+.icon__links {
+  font-family: $font-common;
+  padding: 0;
+  font-size: small;
+  margin: 3px;
+  width: 40px;
+  height: 40px;
+  border: solid;
+  border-radius: 100%;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}
