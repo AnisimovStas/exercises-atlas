@@ -1,0 +1,19 @@
+.svgBox {
+  display: flex;
+  justify-content: center;
+  margin: 10px;
+  height: 65vh;
+}
+.svg {
+  position: absolute;
+  background-color: rgb(255, 255, 255);
+  height: 65vh;
+  fill: $muscle-color;
+}
+.muscle__nohover {
+}
+.muscle {
+  &:hover {
+    fill: $main-hover;
+  }
+}
