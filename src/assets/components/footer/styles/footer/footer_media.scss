@@ -1,0 +1,7 @@
+.footer {
+  @include _768 {
+    height: 10vh;
+    position: relative;
+  }
+
+}

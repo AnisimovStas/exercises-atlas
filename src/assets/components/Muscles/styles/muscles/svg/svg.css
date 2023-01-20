@@ -1,0 +1,9 @@
+.svg {
+  display: flex;
+  background-color: rgb(255, 255, 255);
+  height: 400px;
+  fill: rgb(0, 0, 0);
+}
+.svg :hover {
+  fill: red;
+}/*# sourceMappingURL=svg.css.map */

@@ -1,0 +1,26 @@
+.support {
+  @include _768 {
+    margin-right: 6px;
+    width: auto;
+  }
+}
+.support__text {
+  @include _768 {
+    font-size: medium;
+  }
+}
+.list {
+  list-style-type: none;
+}
+.support__list {
+  @include _768 {
+  }
+}
+
+.icon__links {
+  @include _768 {
+    font-size: mall;
+    width: 20px;
+    height: 20px;
+  }
+}

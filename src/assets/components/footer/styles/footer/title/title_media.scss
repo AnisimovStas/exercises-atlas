@@ -1,0 +1,7 @@
+.title__name {
+  @include _768 {
+    font-size: large;
+    margin: 3px;
+  }
+}
+

@@ -1,0 +1,27 @@
+@import "./languageSwitcher/languageSwitcher.scss";
+@import "./logoAndText/logoAndText.scss";
+@import "./logoAndText/logoAndText_media.scss";
+.header {
+ 
+  background-color: $main-color;
+  width: 100%;
+}
+.header__contentBox {
+  @extend .contentBox;
+  justify-content: space-between;
+}
+.header__contentSlot {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 33%;
+}
+.header__contentSlot__left {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  width: 33%;
+}
+.header__contentSlot__empty {
+  width: 33%;
+}
