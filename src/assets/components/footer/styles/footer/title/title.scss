@@ -1,0 +1,24 @@
+.title {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+}
+.title__name {
+  font-family: $font-title;
+  margin: 5px;
+  font-size: x-large;
+  font: bold;
+}
+.title__autor {
+  font-family: $font-common;
+  margin: 5px;
+  margin-bottom: 0;
+  font-size: small;
+}
+.title__years {
+  font-family: $font-common;
+  margin: 5px;
+  margin-top: 0;
+  font-size: x-small;
+}
