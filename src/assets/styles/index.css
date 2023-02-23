@@ -166,20 +166,7 @@ body {
 }
 
 .bounce {
-  -webkit-animation: bounce-in 0.3s;
-          animation: bounce-in 0.3s;
-}
-
-@-webkit-keyframes bounce-in {
-  0% {
-    transform: scale(0.5);
-  }
-  50% {
-    transform: scale(1.15);
-  }
-  100% {
-    transform: scale(1);
-  }
+  animation: bounce-in 0.3s;
 }
 
 @keyframes bounce-in {
@@ -194,24 +181,8 @@ body {
   }
 }
 .shake {
-  -webkit-animation: shake 0.82s cubic-bezier(0.36, 0.07, 0.19, 0.97) both;
-          animation: shake 0.82s cubic-bezier(0.36, 0.07, 0.19, 0.97) both;
+  animation: shake 0.82s cubic-bezier(0.36, 0.07, 0.19, 0.97) both;
   transform: translate3d(0, 0, 0);
-}
-
-@-webkit-keyframes shake {
-  10%, 90% {
-    transform: translate3d(-1px, 0, 0);
-  }
-  20%, 80% {
-    transform: translate3d(2px, 0, 0);
-  }
-  30%, 50%, 70% {
-    transform: translate3d(-4px, 0, 0);
-  }
-  40%, 60% {
-    transform: translate3d(4px, 0, 0);
-  }
 }
 
 @keyframes shake {
@@ -358,13 +329,13 @@ body {
   display: flex;
   justify-content: center;
   margin: 10px;
-  height: 65vh;
+  height: 450px;
 }
 
 .svg {
   position: absolute;
   background-color: rgb(255, 255, 255);
-  height: 65vh;
+  height: 450px;
   fill: #B32821;
 }
 
@@ -374,13 +345,13 @@ body {
 
 @media (max-width: 768px) {
   .svgBox {
-    height: 65vh;
+    height: 450px;
   }
 }
 
 @media (max-width: 768px) {
   .svg {
-    height: 65vh;
+    height: 450px;
   }
 }
 
@@ -655,7 +626,11 @@ body {
   display: flex;
   justify-content: right;
 }
-.support__list :hover {
+
+.icon {
+  cursor: pointer;
+}
+.icon :hover {
   background-color: rgba(230, 163, 163, 0.8078431373);
 }
 
@@ -735,7 +710,7 @@ body {
 }
 
 .footer {
-  position: fixed;
+  position: absolute;
   bottom: 0;
   background-color: #B32821;
   width: 100%;

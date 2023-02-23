@@ -6,7 +6,7 @@
 @import "./title/title_media.scss";
 
 .footer {
-  position: fixed;
+  position: absolute;
   bottom: 0;
   background-color: $main-color;
   width: 100%;

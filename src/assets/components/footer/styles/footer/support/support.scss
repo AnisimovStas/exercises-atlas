@@ -18,14 +18,16 @@
 }
 .support__list {
   padding: 0;
-  margin: 0 ;
+  margin: 0;
   display: flex;
   justify-content: right;
+}
+.icon {
+  cursor: pointer;
   :hover {
     background-color: $main-hover;
   }
 }
-
 .icon__links {
   font-family: $font-common;
   padding: 0;

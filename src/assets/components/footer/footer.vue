@@ -37,14 +37,15 @@ export default {
       <div class="footer__contentSlot__right">
         <div class="support">
           <p class="support__text">Support:</p>
-          <menu class="list support__list">
+
+          <ul class="list support__list">
             <li class="icon list__icon">
               <a class="link icon__links">$</a>
             </li>
             <li class="icon list__icon">
               <a class="link icon__links">♥</a>
             </li>
-          </menu>
+          </ul>
         </div>
       </div>
     </div>
